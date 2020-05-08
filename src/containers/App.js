@@ -1,8 +1,7 @@
 import React from 'react';
 // Components
 import Header from './Header';
-import Sidebar from './Sidebar';
-import Content from './Content';
+import ContentWrapper from './ContentWrapper';
 import Footer from './Footer';
 // Assets
 import './App.css';
@@ -11,8 +10,7 @@ function App() {
   return (
     <div className="app">
       <Header className="flex-section header" />
-      <Sidebar className="flex-section sidebar" />
-      <Content className="flex-section content" />
+      <ContentWrapper className="content-wrapper"/>
       <Footer className="flex-section footer" />
     </div>
   );
